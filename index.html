@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      iframe {
+        border: none;
+      }
+      body {
+        background-color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>video</h2>
+    <video controls height="400" width="300" poster="poster.webp">
+      <source scr="goldem temple.mp4" type="video/mp4" />
+
+      <p>video <a href="golden temple.mp4"> link to this video</a></p>
+    </video>
+    <br />
+    <br />
+    <h2>audio</h2>
+    <audio controls>
+      <source src="Doraemon-Title-Song.mp3" type="audio/mp3" />
+
+      <p>
+        Your browser doesn't support HTML5 audio. Here is a
+        <a href="Doraemon-Title-Song.mp3">link to the audio</a> instead.
+      </p>
+    </audio>
+    <br />
+    <h2>you tube link</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/t0Q2otsqC4I"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <br />
+    <h2>pdf</h2>
+    <object
+      data="Plain scales.pdf"
+      type="application/pdf"
+      width="300"
+      height="400"
+    >
+      <p>
+        this pdf contain enginnering drawing notes of chapter plain scales<a
+          href="Plain scales.pdf"
+        >
+          downlowd plain scale pdf</a
+        >
+      </p>
+    </object>
+  </body>
+</html>
